@@ -1,0 +1,39 @@
+.search-form {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+input {
+    width: 290px;
+    border-color: snow;
+    border-radius: 9px;
+    height: 29px;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    justify-content: center;
+}
+
+.photo-card {
+    background-color:#c9c2c2;
+    width: 320px;
+    height: 290px;
+    margin-top: 40px;
+    opacity: 0,5;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    gap: 19px;
+    text-align: center;
+}
