@@ -6,14 +6,17 @@
 
 input {
     width: 290px;
-    border-color: snow;
+    border-color: cornflowerblue;
     border-radius: 9px;
     height: 29px;
     text-align: center;
 }
 
 button {
-    width: 60px;
+    width: 64px;
+    border-radius: 9px;
+    border-color: cornflowerblue;
+    height: 30px;
 }
 
 .gallery {
@@ -36,4 +39,17 @@ button {
     display: flex;
     gap: 19px;
     text-align: center;
+}
+
+.load-more {
+    align-items:center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 33px;
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    border-color: cornflowerblue;
 }

@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-    </form>
-    <div class="gallery">
-  <!-- Картки зображень -->
-</div>
-<button type="button" class="load-more">Load more</button>
-  
+    <div class="search-form-container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button class="submit-button" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="gallery"></div>
+    <div class="end"></div>
+    <button type="button" class="load-more hide">Load more</button>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
