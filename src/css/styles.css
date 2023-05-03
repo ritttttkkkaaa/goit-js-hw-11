@@ -53,3 +53,7 @@ button {
     border-radius: 9px;
     border-color: cornflowerblue;
 }
+
+.load-more.is-hidden {
+    display: none;
+}
